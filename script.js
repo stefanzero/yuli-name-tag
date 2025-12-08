@@ -39,7 +39,7 @@ async function getAllStudentsRecords() {
             <img src="name-tag.png" class="name-tag">
             <div class="student-info">
               <img src="${pic}" class="headshot">
-              <h5>${name}</h5>
+              <h5 class="student-name">${name}</h5>
               <span class="open-to-badge">Open to: ${openTo}</span>
               <p class="highlight">${info}</p>
               <a href="${linkedln}" target="_blank" class="linkedin">
